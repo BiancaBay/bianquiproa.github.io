@@ -1,3 +1,9 @@
+@font-face{
+    font-family: "FuenteLinda";
+    src: url("fonts/ComicNeue-Regular.ttf");
+}
+
+
 body{
     background-color: rgb(144, 214, 226);
 }
