@@ -8,6 +8,10 @@
     padding: 5px;
 }
 
+#listanav{
+    text-align: center;
+}
+
 body{
     background-color: rgb(144, 214, 226);
     font-family: 'FuenteLinda';
