@@ -13,13 +13,13 @@
 }
 
 body{
-    background-color: rgb(144, 214, 226);
+    background-color: rgb(28, 94, 133);
     font-family: 'FuenteLinda';
     font-size: xx-large
 }
 
 h1{
-    color: rgb(18, 68, 117);
+    color: rgb(5, 18, 24);
 }
 
 div{
@@ -28,22 +28,26 @@ div{
 
 img {
     width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    
+}
+
+p{  
+    color: darkkhaki;
+    background: rgb(28, 94, 133);
 }
 
 .Texto{
     width: 100%;
     background-color: #3888dd;
     text-align: center;
+    background: #308bc0;
 }
 
 .Foto{  
     width: 30%;
     display: inline-block;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
 }
 
 /*BOTON*/
@@ -76,5 +80,39 @@ img {
         position:relative;
         top:1px;
     }
-    
+
+.fondo{
+    z-index: -100;
+    object-fit: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.Varones{
+table th{
+    background-color: coral;
+    border: 5px darksalmon;
+    border-style: double;
+}
+table td{
+    background-color: beige;
+    border: 5px darksalmon;
+}
+    }
+
+.Mujeres{
+table th {
+    background-color: rgb(62, 2, 204);
+    border: 5px rgb(161, 144, 240);
+    border-style: double;
+}
+table td{
+    background-color: rgb(223, 212, 245);
+    border: 5px rgb(117, 61, 223);
+}
+}
             
