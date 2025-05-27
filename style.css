@@ -92,6 +92,10 @@ p{
     opacity: 0.9;
 }
 
+.container  {
+    display: flex;
+    flex-flow: row wrap;
+}
 .Varones{
 table th{
     background-color: coral;
