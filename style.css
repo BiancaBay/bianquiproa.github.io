@@ -35,6 +35,10 @@ p{
     background: rgb(28, 94, 133);
 }
 
+.parrafo{
+    padding: 1%;
+}
+
 .Texto{
     width: 100%;
     background-color: #3888dd;
@@ -43,11 +47,9 @@ p{
 }
 
 .Foto{  
-    width: 30%;
     display: inline-block;
-    margin-left: 35%;
-    margin-right: 35%;
     text-align: center;
+    align-self: center;
 }
 
 /*BOTON*/
@@ -92,10 +94,12 @@ p{
     opacity: 0.9;
 }
 
-.container  {
+.flex-container  {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
 .Varones{
 table th{
     background-color: coral;
